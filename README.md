@@ -19,7 +19,7 @@
 - 📊 **Excel** (Dashboards, Pivot Tables)
 - 🐍 **Python** (Pandas, NumPy, Matplotlib)
 - 📈 **Power BI** (Interactive dashboards)
-- 📘 Jupyter,pgadmin Git, Markdown
+- 📘 Jupyter,pgadmin, Git, Markdown
 
 ---
 
