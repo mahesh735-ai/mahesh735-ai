@@ -29,7 +29,7 @@ mahesh = {
     "education"  : "B.Tech Computer Science | RTMNU Nagpur | CGPA: 8.5 | 2027",
     "focus"      : ["Fintech Analytics", "E-commerce Data", "ML for Business"],
     "currently"  : "Building Credit Card Fraud Detection pipeline (ROC-AUC: 0.97)",
-    "target"     : "Data Analyst Internship → May 2026",
+    "target"     : "Data Analyst Internship → June 2026",
     "strength"   : "Turning raw data into decisions that actually matter"
 }
 ```
