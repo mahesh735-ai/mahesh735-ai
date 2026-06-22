@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <i>Building real-world data projects in Fintech & E-commerce &nbsp;|&nbsp; Open to DA Internships (May–June 2026)</i>
+  <i>Building real-world data projects in Fintech & E-commerce &nbsp;|&nbsp; Open to DA Internships (June - July 2026)</i>
 </p>
 
 <p align="center">
@@ -28,8 +28,7 @@
 mahesh = {
     "education"  : "B.Tech Computer Science | RTMNU Nagpur | CGPA: 8.5 | 2027",
     "focus"      : ["Fintech Analytics", "E-commerce Data", "ML for Business"],
-    "currently"  : "Building Credit Card Fraud Detection pipeline (ROC-AUC: 0.97)",
-    "target"     : "Data Analyst Internship → June 2026",
+    "target"     : "Data Analyst Internship → July 2026",
     "strength"   : "Turning raw data into decisions that actually matter"
 }
 ```
@@ -75,19 +74,6 @@ mahesh = {
 
 ## 🚀 Featured Projects
 
-### 🔐 Credit Card Fraud Detection &nbsp;|&nbsp; `Python` `Scikit-learn` `Pandas` `Power BI`
-> **Fintech ML pipeline on real-world data — handling extreme class imbalance**
-
-- 📦 Dataset: 284,807 transactions | Only 0.17% fraud — severe class imbalance
-- 🔬 EDA finding: Fraudulent transactions have **2.5× higher average amount** than legitimate ones
-- ⚙️ Approach: SMOTE for class imbalance → Logistic Regression → Random Forest
-- 📊 Result: **ROC-AUC: ~0.97** | Optimized for Recall (catching fraud > avoiding false alarms)
-- 🎯 Business impact: Flagged high-risk transaction windows for targeted SMS verification
-
-[![View Repo](https://img.shields.io/badge/View_Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mahesh735-ai)
-
----
-
 ### 📊 HR Analytics Dashboard — Attrition Analysis &nbsp;|&nbsp; `Power BI` `DAX` `Excel`
 > **Interactive executive dashboard — employee churn insights for HR decisions**
 
@@ -129,8 +115,8 @@ mahesh = {
 |-------|---------|
 | 🏆 **5-Star SQL — HackerRank** | Solved 30+ SQL challenges from Basic to Advanced with high accuracy |
 | 📚 **Data Analyst Bootcamp** | Krish Naik, Udemy 2025 — Python, SQL, Excel, Power BI, Prompt Engineering |
-| 🌐 **Data Analytics Essentials** | Cisco Networking Academy (In Progress) |
-| 🎓 **CGPA 8.5 / 10** | Consistent top academic standing — Rashtrasant Tukadoji Maharaj Nagpur University |
+| 🌐 **Data Analytics Essentials** | Cisco Networking Academy  |
+| 🎓 **CGPA 8.5 / 10** | College Topper  — Rashtrasant Tukadoji Maharaj Nagpur University |
 
 ---
 
@@ -141,7 +127,7 @@ mahesh = {
 🤖 Scikit-learn — Classification pipelines, feature engineering, model evaluation
 ⚡ Power BI DAX — Time intelligence: YTD, MoM, RANKX, SUMX
 🗃️ SQL — Advanced window functions (LAG, LEAD, NTILE) on DataLemur
-📐 Statistics — Hypothesis testing, distributions (GATE DA 2026 prep)
+📐 Statistics — Hypothesis testing, distributions 
 ```
 
 ---
