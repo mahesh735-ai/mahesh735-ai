@@ -30,18 +30,18 @@
 mahesh = {
     "education"      : "B.Tech Computer Science | RTMNU Nagpur | CGPA: 8.5 | Expected 2027",
     "certification"   : "Data Science & AI — E&ICT Academy, IIT Roorkee (via Masai School)",
-    "domains_explored": ["FinTech Fraud Analytics", "Telecom Churn", "E-Commerce BI"],
+    "domains_explored": ["FinTech Analytics", "Business Intelligence", "Telecom Churn"],
     "currently"       : ["Interview preparation", "ML fundamentals", "Advanced SQL & DAX"],
     "target"          : "Data Analyst Internship — 2026",
     "strength"        : "End-to-end thinking — from raw CSV to an executive-ready dashboard"
 }
 ```
 
+- 📊 **PhonePe Business Intelligence** — Power BI star-schema dashboard on 300K+ UPI transactions, 108K+ users
 - 🛡️ **UPI Fraud & Risk Analytics** — full FinTech pipeline: Python → PostgreSQL → Excel → Power BI on 50,000 transactions
-- 📉 **Telecom Churn Analysis** — identified 26.5% churn rate, built a Logistic Regression model with SMOTE for class imbalance
-- 📊 **Superstore BI Dashboard** — 3-page Power BI dashboard, 12+ DAX measures, Star Schema model on 9,994+ orders
+- 📉 **Telecom Churn Analysis** — identified 26.5% churn rate, built a Logistic Regression model with class-weight balancing
 - 🏆 **5-Star SQL on HackerRank** — 30+ problems solved, Basic to Advanced
-- 🎓 **College Topper** — Rank #1 across all semesters, 8.5+ CGPA
+- 🎓 **College Topper** — Rank #1 across all semesters, 8.5 CGPA
 
 ---
 
@@ -71,13 +71,26 @@ mahesh = {
 |---|---|
 | **Languages & Query** | Python (Pandas, NumPy), PostgreSQL, MySQL — Window Functions, CTEs, Query Optimization |
 | **Visualization & BI** | Power BI (DAX, Power Query, Drill-through), Excel (Pivot Tables, VLOOKUP, Dashboard Design) |
-| **Machine Learning** | Logistic Regression, Classification, SMOTE, Model Evaluation (Precision/Recall/F1/ROC-AUC) |
+| **Machine Learning** | Logistic Regression, Classification, Class-Weight Balancing, Model Evaluation (Precision/Recall/F1/ROC-AUC) |
 | **Analytics** | EDA, Data Cleaning, Feature Engineering, Descriptive Statistics, Hypothesis Testing |
 | **Tools** | Git, GitHub, Jupyter Notebook, Google Colab, VS Code, pgAdmin |
 
 ---
 
 ## 🚀 Featured Projects
+
+### 📊 PhonePe Business Intelligence & Analytics &nbsp;|&nbsp; `Power BI` `DAX` `Power Query`
+> **End-to-end fintech BI solution — star-schema modeling on 300K+ transactions**
+
+- 📦 Analyzed 300K+ UPI transactions across 108K+ users to uncover payment behavior, service performance, and growth trends
+- ⚙️ Built a star-schema data model with 1:M relationships and a custom DAX date table for accurate time intelligence
+- 📐 8+ DAX measures including MoM growth and transaction success rate
+- 🎨 Dynamic conditional formatting, gradient-coded visuals, drill-through tooltips, and a custom Figma-branded dashboard UI
+- 🎯 Surfaced a 96% transaction success rate, 71.6% weekday transaction share, and ₹2.5B+ value concentrated in Loans
+
+[![View Repo](https://img.shields.io/badge/View_Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mahesh735-ai/PhonePe-Business-Intelligence-Analytics)
+
+---
 
 ### 🛡️ UPI Transaction Fraud & Risk Analytics &nbsp;|&nbsp; `Python` `PostgreSQL` `Excel` `Power BI`
 > **End-to-end FinTech fraud analytics — simulating a real risk team's workflow**
@@ -99,20 +112,21 @@ mahesh = {
 - 📦 Dataset: 7,043 telecom customers across 21 features
 - 🔍 Key finding: 26.5% overall churn — 42% for month-to-month contracts vs. 3% for two-year contracts
 - 💳 High-risk segment: 45% churn among electronic-check users
-- 🤖 Built a Logistic Regression model with SMOTE for class balancing, evaluated via Precision, Recall, F1, ROC-AUC
+- 🤖 Built a Logistic Regression model using `class_weight='balanced'` to address class imbalance, evaluated via Precision, Recall, F1, ROC-AUC
 
 [![View Repo](https://img.shields.io/badge/View_Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mahesh735-ai/Telecom-churn-analysis-EDA)
 
 ---
 
-### 📊 Superstore Business Intelligence Dashboard &nbsp;|&nbsp; `Power BI` `DAX` `Power Query`
-> **3-page interactive dashboard on e-commerce performance**
+### 🏢 HR Analytics Dashboard &nbsp;|&nbsp; `Power BI` `DAX` `Excel`
+> **Employee attrition analysis with actionable retention insights**
 
-- 📦 Dataset: 9,994+ orders analyzed using a Star Schema model
-- ⚙️ Built 12+ DAX measures: Profit Margin %, Return Rate %, YoY Growth %, Customer KPIs
-- 💡 Insight: 40%+ discount orders were generating losses (−$0.10M); Technology was the highest-revenue category ($0.84M)
+- 📦 Identified a 16.1% overall attrition rate across the workforce
+- 📊 Built 6 KPIs and 6 charts covering age group, salary band, department, and tenure drivers
+- 🔍 Key finding: Age 26–35 shows the highest attrition; salary below 5K is the biggest risk factor
+- ⚙️ Cleaned and transformed data using Excel + Power Query, with DAX-driven attrition rate measures
 
-[![View Repo](https://img.shields.io/badge/View_Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mahesh735-ai/Superstore-PowerBI-Dashboard_self)
+[![View Repo](https://img.shields.io/badge/View_Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mahesh735-ai/HR-Analytics-Dashboard)
 
 ---
 
@@ -120,10 +134,10 @@ mahesh = {
 
 | Project | Tools | Key Result |
 |---|---|---|
+| [🛒 Superstore BI Dashboard](https://github.com/mahesh735-ai/Superstore-PowerBI-Dashboard_self) | Power BI, DAX, Power Query | Star Schema model on 9,994+ orders; 12+ DAX measures |
 | [🛍️ Customer Shopping Behavior Analysis](https://github.com/mahesh735-ai/Customer-Shopping-Behavior-Analysis-Ent-to-End-) | Python, PostgreSQL, Power BI | Analyzed 3,900 transactions for spending patterns and subscription trends |
 | [📈 Sales Analytics Dashboard](https://github.com/mahesh735-ai/Sales-Analytics-powerBI) | Power BI, DAX, Power Query | Raw CSV → dashboard pipeline with 6 visuals, bookmarks, and custom UI |
 | [☕ Coffee Shop Sales Dashboard](https://github.com/mahesh735-ai/Coffee_Shop_Sales_Project_DashBoard) | Excel, Pivot Tables | Identified peak hours and top SKUs across 149K+ transactions |
-| [🏢 HR Analytics Dashboard](https://github.com/mahesh735-ai/HR-Analytics-Dashboard) | Power BI, DAX, Excel | Surfaced 16.1% attrition rate and its key drivers |
 | [🎵 Spotify SQL Project](https://github.com/mahesh735-ai/SQL_Spotify_project) | PostgreSQL | Solved 15+ business problems on 20,500+ rows using window functions and CTEs |
 | [🎬 Netflix SQL Analysis](https://github.com/mahesh735-ai/Netflix_project_SQL) | PostgreSQL | Content-type, genre, and ratings analysis using real-world SQL |
 | [🛒 Retail Sales Analysis](https://github.com/mahesh735-ai/Retail_sales_analysis_SQL) | PostgreSQL | 10+ queries on product categories and customer segments |
@@ -140,7 +154,17 @@ mahesh = {
 | 📚 **Data Analyst Bootcamp** | Krish Naik, Udemy (2025) — Python, SQL, Excel, Power BI |
 | 🌐 **Data Analytics Essentials** | Cisco Networking Academy |
 | 🏅 **College Topper** | Rank #1 across all semesters, RTMNU Nagpur, CGPA 8.5/10 |
-| 💼 **Deloitte Data Analytics Virtual Internship** | Forage |
+| 🏆 **Vidyarthi Gunagaurav Puraskar 2026** | Agnihotri Group of Institutions — 92% in 3rd Year B.Tech |
+
+---
+
+## 💼 Experience
+
+**Data Analytics Intern — Cognifyz Technologies** (Jun 2025 – Jul 2025)
+Worked on real business datasets using Python (Pandas, NumPy, Matplotlib, Seaborn) — data cleaning, null handling, statistical analysis, and visualization across multiple task levels.
+
+**Google Gemini Student Ambassador — Ping Digital × Google India** (Jul 2026 – Present)
+First student ambassador from my college; conducting hands-on AI workshops on Gemini and Prompt Engineering for 30+ students.
 
 ---
 
@@ -191,5 +215,4 @@ mahesh = {
 <p align="center">
   <b>"Data is the raw material. Insight is the product."</b>
 </p>
-
 
