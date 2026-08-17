@@ -158,13 +158,10 @@ mahesh = {
 
 ---
 
-## 💼 Experience
-
-**Data Analytics Intern — Cognifyz Technologies** (Jun 2025 – Jul 2025)
-Worked on real business datasets using Python (Pandas, NumPy, Matplotlib, Seaborn) — data cleaning, null handling, statistical analysis, and visualization across multiple task levels.
+## 💼 Leadership Experience
 
 **Google Gemini Student Ambassador — Ping Digital × Google India** (Jul 2026 – Present)
-First student ambassador from my college; conducting hands-on AI workshops on Gemini and Prompt Engineering for 30+ students.
+First student ambassador from my college; conducting hands-on AI workshops on Gemini and Prompt Engineering for 30+ students, guiding them in applying AI tools for research, productivity, and academic workflows.
 
 ---
 
