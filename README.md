@@ -234,7 +234,7 @@ First student ambassador from my college; conducting hands-on AI workshops on Ge
 </p>
 
 <p align="center">
-  <i>Open to Data Analyst Internships — 2026 &nbsp;|&nbsp; Remote / Hybrid / Nagpur</i>
+  <i>Open to Data Analyst Internships — 2026 &nbsp;|&nbsp; Remote / Hybrid </i>
 </p>
 
 ---
