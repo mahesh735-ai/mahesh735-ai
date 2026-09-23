@@ -1,14 +1,14 @@
-<h1 align="center">Hi 👋, I'm Mahesh Thakare</h1>
+<div align="center">
 
-<h3 align="center">Aspiring Data Analyst | Turning raw data into decisions that matter</h3>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1B2A,100:0A66C2&height=200&section=header&text=Mahesh%20Thakare&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Turning%20raw%20data%20into%20decisions%20that%20matter&descAlignY=58&descSize=18" width="100%"/>
 
-<p align="center">
-  <b>Python &nbsp;•&nbsp; SQL (PostgreSQL/MySQL) &nbsp;•&nbsp; Power BI &nbsp;•&nbsp; Excel &nbsp;•&nbsp; Machine Learning (Scikit-learn, XGBoost)</b>
-</p>
+<a href="https://www.linkedin.com/in/mahesh-thakare-75817b2a7">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2500&pause=800&color=0A66C2&center=true&vCenter=true&width=650&lines=Data+Analyst;Risk+Analyst;Data+Scientist;Data+Engineer;Turning+Data+Into+Decisions" />
+</a>
 
-<p align="center">
-  <i>B.Tech CSE, RTMNU Nagpur (Expected 2027) · CGPA 8.5 &nbsp;|&nbsp; Data Science & AI Certification — IIT Roorkee (via Masai School)</i>
-</p>
+**Rank #1 B.Tech CSE Student · RTMNU Nagpur · Data Science & AI Certification — IIT Roorkee (via Masai School)**
+
+<br/>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/mahesh-thakare-75817b2a7">
@@ -19,8 +19,18 @@
     <img src="https://img.shields.io/badge/Gmail-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
   &nbsp;
+  <a href="https://github.com/mahesh735-ai">
+    <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+  &nbsp;
   <img src="https://komarev.com/ghpvc/?username=mahesh735-ai&label=Profile+Views&color=0D1B2A&style=for-the-badge"/>
 </p>
+
+<p align="center">
+  🟢 <b>Open to:</b> Data Analyst • Risk Analyst • Data Scientist • Data Engineer &nbsp;|&nbsp; 📍 Onsite / Remote &nbsp;|&nbsp; ⚡ Available Immediately — Internship (PPO) or Full-Time
+</p>
+
+</div>
 
 ---
 
@@ -31,19 +41,29 @@ mahesh = {
     "education"       : "B.Tech Computer Science | RTMNU Nagpur | CGPA: 8.5 | Expected 2027",
     "certification"   : "Data Science & AI — E&ICT Academy, IIT Roorkee (via Masai School)",
     "domains_explored": ["FinTech Analytics", "Credit Risk Modeling", "Business Intelligence", "Telecom Churn"],
-    "currently"       : ["Classification & Regression modeling", "Model explainability (SHAP)", "Advanced SQL & DAX"],
-    "target"          : "Data Analyst Internship — 2026",
+    "currently_building": "A RAG pipeline using LLMs + Prompt Engineering",
+    "currently_sharpening": ["Classification & Regression modeling", "SHAP explainability", "Advanced SQL & DAX"],
+    "target"          : ["Data Analyst", "Risk Analyst", "Data Scientist", "Data Engineer"],
     "strength"        : "End-to-end thinking — from raw CSV to a deployed, explainable ML system or an executive-ready dashboard"
 }
 ```
 
 - 🏦 **Loan Default Risk Prediction** — end-to-end credit risk classifier (XGBoost, 0.9494 ROC-AUC), SHAP explainability, deployed as a live Streamlit app
 - 🏠 **Housing Finance Loan Amount Predictor** — XGBoost regression model estimating loan sanction amounts from applicant financial profiles
-- 📊 **PhonePe Business Intelligence** — Power BI star-schema dashboard on 300K+ UPI transactions, 108K+ users
-- 🛡️ **UPI Fraud & Risk Analytics** — full FinTech pipeline: Python → PostgreSQL → Excel → Power BI on 50,000 transactions
+- 📊 **PhonePe Business Intelligence** — Power BI star-schema dashboard on 300K+ UPI transactions, 108K+ users, ₹2.5B+ tracked in Loans
+- 🛡️ **UPI Fraud & Risk Analytics** — full FinTech pipeline: Python → PostgreSQL → Excel → Power BI, uncovering ₹67.5L in fraud exposure
 - 📉 **Telecom Churn Analysis** — identified 26.5% churn rate, built a Logistic Regression model with class-weight balancing
 - 🏆 **5-Star SQL on HackerRank** — 30+ problems solved, Basic to Advanced
 - 🎓 **College Topper** — Rank #1 across all semesters, 8.5 CGPA
+
+---
+
+## 🛤️ My Journey
+
+- 🔄 Switched from **Mechanical Engineering to Computer Science** after 1st year — chased what genuinely excited me: data, code, and problem-solving
+- 🎓 College doesn't offer campus placements, so my internship and job search has been **fully self-directed** — applying, networking, and building portfolio projects on my own
+- 🏅 Became **Rank #1 topper** across every semester while building 10+ real-world analytics & ML projects on the side
+- 🚀 Now pursuing a **Data Science & AI certification from IIT Roorkee** (via Masai School) and actively interviewing for Data Analyst / Risk Analyst roles
 
 ---
 
@@ -68,15 +88,21 @@ mahesh = {
   <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white"/>
   <img src="https://img.shields.io/badge/Google_Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white"/>
   <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Gemini_API-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white"/>
+</p>
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=python,postgresql,mysql,git,github,vscode,tableau&theme=dark" />
 </p>
 
 | Category | Skills |
 |---|---|
-| **Languages & Query** | Python (Pandas, NumPy), PostgreSQL, MySQL — Window Functions, CTEs, Query Optimization |
-| **Visualization & BI** | Power BI (DAX, Power Query, Drill-through), Tableau, Excel (Pivot Tables, VLOOKUP, Dashboard Design) |
+| **Languages & Query** | Python (Pandas, NumPy, Matplotlib, Seaborn), PostgreSQL, MySQL — Window Functions, CTEs, Query Optimization |
+| **Visualization & BI** | Power BI (DAX, Power Query, Drill-through), Tableau, Excel (Pivot Tables, XLOOKUP, INDEX-MATCH) |
 | **Machine Learning** | Scikit-learn, XGBoost, Logistic Regression, Random Forest, Feature Engineering, Hyperparameter Tuning, SHAP Explainability |
 | **Model Evaluation** | Precision/Recall/F1, ROC-AUC, PR-AUC, Threshold Tuning, Cross-Validation |
-| **Analytics** | EDA, Data Cleaning, Statistical Analysis, Hypothesis Testing |
+| **Analytics** | EDA, Data Cleaning & Wrangling, ETL, Statistical Analysis, Hypothesis Testing, A/B Testing, KPI Reporting |
+| **Generative AI** | LLMs, Prompt Engineering, Gemini API Integration, RAG (in progress) |
 | **Deployment** | Streamlit, Git, GitHub |
 | **Tools** | Jupyter Notebook, Google Colab, VS Code, pgAdmin |
 
@@ -87,9 +113,9 @@ mahesh = {
 ### 🏦 Loan Default Risk Prediction &nbsp;|&nbsp; `XGBoost` `SHAP` `Streamlit`
 > **End-to-end credit risk classification system — deployed and live**
 
-- 📦 Predicts loan default probability from 32K+ applicant records (income, employment, credit history, loan attributes)
+- 📦 Predicts loan default probability from 32,581 applicant records (income, employment, credit history, loan attributes)
 - 🤖 Compared Logistic Regression, Random Forest, and XGBoost with model-appropriate preprocessing; **XGBoost achieved 0.9494 ROC-AUC**
-- 🎯 Applied SHAP explainability and Precision-Recall threshold tuning, improving default recall from 81% to 86% at a 0.35 decision threshold
+- 🎯 Tuned the decision threshold to 0.35 via Precision-Recall analysis, lifting defaulter recall from 81% to 86%
 - ⚙️ Validated hyperparameter tuning against a manually-configured baseline via RandomizedSearchCV and cross-validation
 - 🌐 Deployed as a live, interactive risk-assessment web application
 
@@ -116,7 +142,7 @@ mahesh = {
 - 📦 Analyzed 300K+ UPI transactions across 108K+ users to uncover payment behavior, service performance, and growth trends
 - ⚙️ Built a star-schema data model with 1:M relationships and a custom DAX date table for accurate time intelligence
 - 📐 8+ DAX measures including MoM growth and transaction success rate
-- 🎯 Surfaced a 96% transaction success rate, 71.6% weekday transaction share, and ₹2.5B+ value concentrated in Loans
+- 🎯 Surfaced a 96% transaction success rate (4% failure rate flagged for server-reliability fixes), 71.6% weekday share, and ₹2.5B+ value concentrated in Loans — with Gen X as the core segment (37.4%)
 
 [![View Repo](https://img.shields.io/badge/View_Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mahesh735-ai/PhonePe-Business-Intelligence-Analytics)
 
@@ -125,12 +151,11 @@ mahesh = {
 ### 🛡️ UPI Transaction Fraud & Risk Analytics &nbsp;|&nbsp; `Python` `PostgreSQL` `Excel` `Power BI`
 > **End-to-end FinTech fraud analytics — simulating a real risk team's workflow**
 
-- 📦 Dataset: 50,000 synthetic UPI transactions across 5 normalized tables
+- 📦 Architected a fraud pipeline on 50,000 UPI transactions across 5 normalized tables — uncovering ₹67.5L in fraud exposure
 - 🐍 Python: Data cleaning, feature engineering (late-night flag, amount z-score, account cohorts), 12 EDA business questions
 - 🗄️ PostgreSQL: Normalized schema + 17 business queries using CTEs and window functions (RANK, LAG)
-- 📗 Excel: Operational dashboard with Power Query, Pivot Tables, and live slicers
-- 📘 Power BI: 3-page executive dashboard — Executive Overview, Merchant Risk Analysis, User Risk Profiles
-- 🎯 Surfaced 6 key insights and 5 actionable recommendations for fraud risk controls
+- 🎯 Flagged the top 10 riskiest merchants (7–9% fraud rate, 2–3× platform average) and Debit Card as the highest-risk channel (3.73%)
+- 📘 Power BI: 3-page executive dashboard — Executive Overview, Merchant Risk Analysis, User Risk Profiles; recommended reduced settlement limits for high-risk-window (12AM–4AM) transactions
 
 [![View Repo](https://img.shields.io/badge/View_Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mahesh735-ai/UPI-Transaction-Fraud-Risk-Analytics)
 
@@ -175,51 +200,74 @@ mahesh = {
 
 ---
 
+## 💼 Experience
+
+**📊 Power BI Analyst Intern (Virtual) — Cognifyz Technologies** &nbsp; *Sep 2026 – Present (1-Month Program)*
+Building dashboards and BI reporting workflows as part of a focused virtual internship track with the same organization as my earlier Data Analyst internship.
+
+**🌐 Google Gemini Student Ambassador — Ping Digital × Google India** &nbsp; *Jul 2026 – Present*
+First student ambassador from my college; conducting hands-on AI workshops on Gemini and Prompt Engineering for 30+ students, guiding them in applying AI tools for research, productivity, and academic workflows.
+
+**📈 Data Analyst Intern — Cognifyz Technologies** &nbsp; *Jun 2025 – Jul 2025*
+- Analyzed a 9,500+ restaurant dataset (Python, Pandas, NumPy) to uncover cuisine, city, and pricing trends — found online-delivery restaurants averaged a 32% higher rating, signaling delivery as a lever to boost ratings
+- Explored restaurant chains, customer votes, and pricing vs. service trends using Python visualizations (Matplotlib, Seaborn) — identified New Delhi as the top restaurant hub and North Indian as the most popular cuisine
+
+---
+
 ## 📜 Certifications & Achievements
+
+<details>
+<summary><b>🎓 Click to expand — Certifications, Badges & Awards</b></summary>
+<br/>
 
 | Badge | Details |
 |---|---|
-| 🎓 **Data Science & AI Certification** | E&ICT Academy, IIT Roorkee (via Masai School) — in progress |
+| 🎓 **Data Science & AI Certification** | E&ICT Academy, IIT Roorkee (via Masai School) — Mar 2026 – Present |
 | 🏆 **5-Star SQL — HackerRank** | Solved 30+ SQL challenges, Basic to Advanced |
 | 📚 **Data Analyst Bootcamp** | Krish Naik, Udemy (2025) — Python, SQL, Excel, Power BI |
 | 🌐 **Data Analytics Essentials** | Cisco Networking Academy |
 | 🏅 **College Topper** | Rank #1 across all semesters, RTMNU Nagpur, CGPA 8.5/10 |
 | 🏆 **Vidyarthi Gunagaurav Puraskar 2026** | Agnihotri Group of Institutions — 92% in 3rd Year B.Tech |
 
----
-
-## 💼 Leadership Experience
-
-**Google Gemini Student Ambassador — Ping Digital × Google India** (Jul 2026 – Present)
-First student ambassador from my college; conducting hands-on AI workshops on Gemini and Prompt Engineering for 30+ students, guiding them in applying AI tools for research, productivity, and academic workflows.
+</details>
 
 ---
 
 ## 📚 Currently Learning & Preparing
 
 ```
-🤖 Machine Learning — ensemble methods, model explainability (SHAP), deployment pipelines
+🤖 Retrieval-Augmented Generation (RAG) — building an end-to-end RAG pipeline
 📐 Statistics & Hypothesis Testing — distributions, ANOVA, feature selection
 🗃️ SQL — advanced window functions (LAG, LEAD, NTILE)
 ⚡ Power BI DAX — time intelligence (YTD, MoM, RANKX, SUMX)
-🎯 Interview Preparation — actively practicing for Data Analyst internship rounds
+🎯 Interview Preparation — actively practicing for Data Analyst / Risk Analyst / Data Scientist internship rounds
 ```
 
 ---
 
 ## 📊 GitHub Stats
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=mahesh735-ai&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="160"/>
-  &nbsp;&nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mahesh735-ai&layout=compact&theme=tokyonight&hide_border=true" height="160"/>
-</p>
+<div align="center">
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mahesh735-ai&theme=tokyonight&hide_border=true"/>
-</p>
+<img src="https://github-readme-stats.vercel.app/api?username=mahesh735-ai&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="160"/>
+&nbsp;&nbsp;
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mahesh735-ai&layout=compact&theme=tokyonight&hide_border=true" height="160"/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=mahesh735-ai&theme=tokyonight&hide_border=true"/>
+
+<img src="https://github-profile-trophy.vercel.app/?username=mahesh735-ai&theme=tokyonight&no-frame=true&row=1&column=6"/>
+
+<!-- 🐍 Contribution snake — light/dark aware, animates your commit graph -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mahesh735-ai/mahesh735-ai/output/github-contribution-grid-snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/mahesh735-ai/mahesh735-ai/output/github-contribution-grid-snake.svg" alt="contribution snake animation"/>
+</picture>
+
+</div>
 
 ---
+
+<div align="center">
 
 ## 🤝 Let's Connect
 
@@ -233,12 +281,10 @@ First student ambassador from my college; conducting hands-on AI workshops on Ge
   </a>
 </p>
 
-<p align="center">
-  <i>Open to Data Analyst Internships — 2026 &nbsp;|&nbsp; Remote / Hybrid </i>
-</p>
+<br/>
 
----
+*"Data tells the story — I just make sure it's heard."*
 
-<p align="center">
-  <b>"Data is the raw material. Insight is the product."</b>
-</p>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A66C2,100:0D1B2A&height=100&section=footer"/>
+
+</div>
