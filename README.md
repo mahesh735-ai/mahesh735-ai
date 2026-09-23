@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1B2A,100:0A66C2&height=200&section=header&text=Mahesh%20Thakare&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Turning%20raw%20data%20into%20decisions%20that%20matter&descAlignY=58&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D9488,100:38BDF8&height=200&section=header&text=Mahesh%20Thakare&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Turning%20raw%20data%20into%20decisions%20that%20matter&descAlignY=58&descSize=18" width="100%"/>
 
 <a href="https://www.linkedin.com/in/mahesh-thakare-75817b2a7">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2500&pause=800&color=0A66C2&center=true&vCenter=true&width=650&lines=Data+Analyst;Risk+Analyst;Data+Scientist;Data+Engineer;Turning+Data+Into+Decisions" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2500&pause=800&color=0EA5E9&center=true&vCenter=true&width=650&lines=Data+Analyst;Risk+Analyst;Data+Scientist;Data+Engineer;Turning+Data+Into+Decisions" />
 </a>
 
 **Rank #1 B.Tech CSE Student · RTMNU Nagpur · Data Science & AI Certification — IIT Roorkee (via Masai School)**
@@ -285,6 +285,6 @@ First student ambassador from my college; conducting hands-on AI workshops on Ge
 
 *"Data tells the story — I just make sure it's heard."*
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A66C2,100:0D1B2A&height=100&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:38BDF8,100:0D9488&height=100&section=footer"/>
 
 </div>
