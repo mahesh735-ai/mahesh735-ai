@@ -113,11 +113,11 @@ mahesh = {
 ### 🏦 Loan Default Risk Prediction &nbsp;|&nbsp; `XGBoost` `SHAP` `Streamlit`
 > **End-to-end credit risk classification system — deployed and live**
 
-- 📦 Predicts loan default probability from 32,581 applicant records (income, employment, credit history, loan attributes)
-- 🤖 Compared Logistic Regression, Random Forest, and XGBoost with model-appropriate preprocessing; **XGBoost achieved 0.9494 ROC-AUC**
-- 🎯 Tuned the decision threshold to 0.35 via Precision-Recall analysis, lifting defaulter recall from 81% to 86%
-- ⚙️ Validated hyperparameter tuning against a manually-configured baseline via RandomizedSearchCV and cross-validation
-- 🌐 Deployed as a live, interactive risk-assessment web application
+- Predicts loan default probability from 32,581 applicant records (income, employment, credit history, loan attributes)
+- Compared Logistic Regression, Random Forest, and XGBoost with model-appropriate preprocessing; **XGBoost achieved 0.9494 ROC-AUC**
+- Tuned the decision threshold to 0.35 via Precision-Recall analysis, lifting defaulter recall from 81% to 86%
+- Validated hyperparameter tuning against a manually-configured baseline via RandomizedSearchCV and cross-validation
+- Deployed as a live, interactive risk-assessment web application
 
 [![View Repo](https://img.shields.io/badge/View_Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mahesh735-ai/Loan-Default-Risk-Prediction)
 [![Live Demo](https://img.shields.io/badge/Live_Demo-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://loan-default-risk-prediction-jttwmb8pax59wcp2kdh9oh.streamlit.app/)
@@ -127,10 +127,10 @@ mahesh = {
 ### 🏠 Housing Finance Loan Amount Predictor &nbsp;|&nbsp; `XGBoost` `Regression` `Streamlit`
 > **Predicting sanctioned loan amounts from applicant financial profiles**
 
-- 📦 End-to-end regression pipeline: data cleaning, EDA, feature engineering, and model comparison (Linear, Ridge, Lasso, Random Forest, XGBoost)
-- 🔍 Diagnosed and corrected a data leakage issue in an engineered feature before finalizing the model
-- 🏆 Selected XGBoost as the final model after fair, test-set-based comparison — not just cross-validation scores
-- 🌐 Deployed as an interactive Streamlit application for real-time loan amount estimation
+- End-to-end regression pipeline: data cleaning, EDA, feature engineering, and model comparison (Linear, Ridge, Lasso, Random Forest, XGBoost)
+- Diagnosed and corrected a data leakage issue in an engineered feature before finalizing the model
+- Selected XGBoost as the final model after fair, test-set-based comparison — not just cross-validation scores
+- Deployed as an interactive Streamlit application for real-time loan amount estimation
 
 [![View Repo](https://img.shields.io/badge/View_Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mahesh735-ai/Housing-Finance-Loan-Amount-Predictor)
 
@@ -139,10 +139,10 @@ mahesh = {
 ### 📊 PhonePe Business Intelligence & Analytics &nbsp;|&nbsp; `Power BI` `DAX` `Power Query`
 > **End-to-end fintech BI solution — star-schema modeling on 300K+ transactions**
 
-- 📦 Analyzed 300K+ UPI transactions across 108K+ users to uncover payment behavior, service performance, and growth trends
-- ⚙️ Built a star-schema data model with 1:M relationships and a custom DAX date table for accurate time intelligence
-- 📐 8+ DAX measures including MoM growth and transaction success rate
-- 🎯 Surfaced a 96% transaction success rate (4% failure rate flagged for server-reliability fixes), 71.6% weekday share, and ₹2.5B+ value concentrated in Loans — with Gen X as the core segment (37.4%)
+- Analyzed 300K+ UPI transactions across 108K+ users to uncover payment behavior, service performance, and growth trends
+- Built a star-schema data model with 1:M relationships and a custom DAX date table for accurate time intelligence
+- 8+ DAX measures including MoM growth and transaction success rate
+- Surfaced a 96% transaction success rate (4% failure rate flagged for server-reliability fixes), 71.6% weekday share, and ₹2.5B+ value concentrated in Loans — with Gen X as the core segment (37.4%)
 
 [![View Repo](https://img.shields.io/badge/View_Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mahesh735-ai/PhonePe-Business-Intelligence-Analytics)
 
@@ -151,11 +151,11 @@ mahesh = {
 ### 🛡️ UPI Transaction Fraud & Risk Analytics &nbsp;|&nbsp; `Python` `PostgreSQL` `Excel` `Power BI`
 > **End-to-end FinTech fraud analytics — simulating a real risk team's workflow**
 
-- 📦 Architected a fraud pipeline on 50,000 UPI transactions across 5 normalized tables — uncovering ₹67.5L in fraud exposure
-- 🐍 Python: Data cleaning, feature engineering (late-night flag, amount z-score, account cohorts), 12 EDA business questions
-- 🗄️ PostgreSQL: Normalized schema + 17 business queries using CTEs and window functions (RANK, LAG)
-- 🎯 Flagged the top 10 riskiest merchants (7–9% fraud rate, 2–3× platform average) and Debit Card as the highest-risk channel (3.73%)
-- 📘 Power BI: 3-page executive dashboard — Executive Overview, Merchant Risk Analysis, User Risk Profiles; recommended reduced settlement limits for high-risk-window (12AM–4AM) transactions
+- Architected a fraud pipeline on 50,000 UPI transactions across 5 normalized tables — uncovering ₹67.5L in fraud exposure
+- Python: Data cleaning, feature engineering (late-night flag, amount z-score, account cohorts), 12 EDA business questions
+- PostgreSQL: Normalized schema + 17 business queries using CTEs and window functions (RANK, LAG)
+- Flagged the top 10 riskiest merchants (7–9% fraud rate, 2–3× platform average) and Debit Card as the highest-risk channel (3.73%)
+- Power BI: 3-page executive dashboard — Executive Overview, Merchant Risk Analysis, User Risk Profiles; recommended reduced settlement limits for high-risk-window (12AM–4AM) transactions
 
 [![View Repo](https://img.shields.io/badge/View_Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mahesh735-ai/UPI-Transaction-Fraud-Risk-Analytics)
 
@@ -164,10 +164,10 @@ mahesh = {
 ### 📉 Telecom Customer Churn Prediction &nbsp;|&nbsp; `Python` `Scikit-learn` `Streamlit`
 > **EDA + ML model to predict and explain customer churn, deployed as a retention analytics tool**
 
-- 📦 Dataset: 7,043 telecom customers across 21 features
-- 🔍 Key finding: 26.5% overall churn — 42% for month-to-month contracts vs. 3% for two-year contracts
-- 💳 High-risk segment: 45% churn among electronic-check users
-- 🤖 Built a Logistic Regression model using `class_weight='balanced'` to address class imbalance, evaluated via Precision, Recall, F1, ROC-AUC
+- Dataset: 7,043 telecom customers across 21 features
+- Key finding: 26.5% overall churn — 42% for month-to-month contracts vs. 3% for two-year contracts
+- High-risk segment: 45% churn among electronic-check users
+- Built a Logistic Regression model using `class_weight='balanced'` to address class imbalance, evaluated via Precision, Recall, F1, ROC-AUC
 
 [![View Repo](https://img.shields.io/badge/View_Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mahesh735-ai/Telecom-customer-churn-prediction)
 
@@ -176,10 +176,10 @@ mahesh = {
 ### 🏢 HR Analytics Dashboard &nbsp;|&nbsp; `Power BI` `DAX` `Excel`
 > **Employee attrition analysis with actionable retention insights**
 
-- 📦 Identified a 16.1% overall attrition rate across the workforce
-- 📊 Built 6 KPIs and 6 charts covering age group, salary band, department, and tenure drivers
-- 🔍 Key finding: Age 26–35 shows the highest attrition; salary below 5K is the biggest risk factor
-- ⚙️ Cleaned and transformed data using Excel + Power Query, with DAX-driven attrition rate measures
+- Identified a 16.1% overall attrition rate across the workforce
+- Built 6 KPIs and 6 charts covering age group, salary band, department, and tenure drivers
+- Key finding: Age 26–35 shows the highest attrition; salary below 5K is the biggest risk factor
+- Cleaned and transformed data using Excel + Power Query, with DAX-driven attrition rate measures
 
 [![View Repo](https://img.shields.io/badge/View_Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mahesh735-ai/HR-Analytics-Dashboard)
 
@@ -201,9 +201,6 @@ mahesh = {
 ---
 
 ## 💼 Experience
-
-**📊 Power BI Analyst Intern (Virtual) — Cognifyz Technologies** &nbsp; *Sep 2026 – Present (1-Month Program)*
-Building dashboards and BI reporting workflows as part of a focused virtual internship track with the same organization as my earlier Data Analyst internship.
 
 **🌐 Google Gemini Student Ambassador — Ping Digital × Google India** &nbsp; *Jul 2026 – Present*
 First student ambassador from my college; conducting hands-on AI workshops on Gemini and Prompt Engineering for 30+ students, guiding them in applying AI tools for research, productivity, and academic workflows.
