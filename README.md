@@ -40,7 +40,7 @@
 mahesh = {
     "education"       : "B.Tech Computer Science | RTMNU Nagpur | CGPA: 8.5 | Expected 2027",
     "certification"   : "Data Science & AI — E&ICT Academy, IIT Roorkee (via Masai School)",
-    "domains_explored": ["FinTech Analytics", "Credit Risk Modeling", "Business Intelligence", "Telecom Churn"],
+    "domains_explored": ["FinTech Analytics", "Broking & Capital Markets", "Credit Risk Modeling", "Business Intelligence", "Telecom Churn"],
     "currently_building": "A RAG pipeline using LLMs + Prompt Engineering",
     "currently_sharpening": ["Classification & Regression modeling", "SHAP explainability", "Advanced SQL & DAX"],
     "target"          : ["Data Analyst", "Risk Analyst", "Data Scientist", "Data Engineer"],
@@ -48,10 +48,11 @@ mahesh = {
 }
 ```
 
+- 📈 **Broking Revenue & Client Intelligence Analytics** — end-to-end Power BI project on 209K synthetic broking trades: 49% dormant clients earning just 1.65% of revenue, ~64% F&O revenue concentration, and 8.87% order failures at market open
+- 🛡️ **UPI Fraud & Risk Analytics** — full FinTech pipeline: Python → PostgreSQL → Excel → Power BI, uncovering ₹67.5L in fraud exposure
 - 🏦 **Loan Default Risk Prediction** — end-to-end credit risk classifier (XGBoost, 0.9494 ROC-AUC), SHAP explainability, deployed as a live Streamlit app
 - 🏠 **Housing Finance Loan Amount Predictor** — XGBoost regression model estimating loan sanction amounts from applicant financial profiles
 - 📊 **PhonePe Business Intelligence** — Power BI star-schema dashboard on 300K+ UPI transactions, 108K+ users, ₹2.5B+ tracked in Loans
-- 🛡️ **UPI Fraud & Risk Analytics** — full FinTech pipeline: Python → PostgreSQL → Excel → Power BI, uncovering ₹67.5L in fraud exposure
 - 📉 **Telecom Churn Analysis** — identified 26.5% churn rate, built a Logistic Regression model with class-weight balancing
 - 🏆 **5-Star SQL on HackerRank** — 30+ problems solved, Basic to Advanced
 - 🎓 **College Topper** — Rank #1 across all semesters, 8.5 CGPA
@@ -98,7 +99,7 @@ mahesh = {
 | Category | Skills |
 |---|---|
 | **Languages & Query** | Python (Pandas, NumPy, Matplotlib, Seaborn), PostgreSQL, MySQL — Window Functions, CTEs, Query Optimization |
-| **Visualization & BI** | Power BI (DAX, Power Query, Drill-through), Tableau, Excel (Pivot Tables, XLOOKUP, INDEX-MATCH) |
+| **Visualization & BI** | Power BI (DAX, Power Query, Data Modeling, Drill-through, Tooltip Pages), Tableau, Excel (Pivot Tables, XLOOKUP, INDEX-MATCH) |
 | **Machine Learning** | Scikit-learn, XGBoost, Logistic Regression, Random Forest, Feature Engineering, Hyperparameter Tuning, SHAP Explainability |
 | **Model Evaluation** | Precision/Recall/F1, ROC-AUC, PR-AUC, Threshold Tuning, Cross-Validation |
 | **Analytics** | EDA, Data Cleaning & Wrangling, ETL, Statistical Analysis, Hypothesis Testing, A/B Testing, KPI Reporting |
@@ -109,6 +110,38 @@ mahesh = {
 ---
 
 ## 🚀 Featured Projects
+
+### 📈 Broking Revenue & Client Intelligence Analytics &nbsp;|&nbsp; `Power BI` `DAX` `Power Query` `Python`
+> **End-to-end broking analytics — where a discount broker earns revenue and where it leaks it (synthetic data)**
+
+- Generated a realistic synthetic dataset in Python (10,000 clients, ~209K trades, Jan 2024 – Jun 2025) with built-in behaviours: expiry-day spikes, market-open failures and dormant clients
+- Power Query ETL: profiled and removed 1,044 duplicate trade IDs (0.5%), fixed messy city names (~17.5% of clients) and validated data types
+- Built a star-schema model and DAX layer: dormancy from each client's last-trade date (60-day rule), revenue per active client, and an expiry-day multiplier calculated on trading-day averages
+- **49.38% of clients are dormant but contribute only 1.65% of revenue** (about ₹9 per dormant client vs ₹533.51 per active client)
+- **F&O Options and Futures bring ~64% of revenue**; order failures reach **8.87% in the 9:15–10:00 AM window** vs 4.03% overall; F&O Options volume is **2.09× higher on expiry days**
+- 2-page dashboard with customer drillthrough and segment tooltip, plus 5 recommendations with owners and success metrics
+- Validated every KPI against the source data and corrected the expiry multiplier from 3.47× to 2.09×
+
+<!-- Optional: add a dashboard screenshot once it is uploaded to the project repo
+<img src="https://raw.githubusercontent.com/mahesh735-ai/Broking-Revenue-Client-Intelligence-Analytics/main/screenshots/page1_executive_overview.png" width="100%"/>
+-->
+
+[![View Repo](https://img.shields.io/badge/View_Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mahesh735-ai/Broking-Revenue-Client-Intelligence-Analytics)
+
+---
+
+### 🛡️ UPI Transaction Fraud & Risk Analytics &nbsp;|&nbsp; `Python` `PostgreSQL` `Excel` `Power BI`
+> **End-to-end FinTech fraud analytics — simulating a real risk team's workflow**
+
+- Architected a fraud pipeline on 50,000 UPI transactions across 5 normalized tables — uncovering ₹67.5L in fraud exposure
+- Python: Data cleaning, feature engineering (late-night flag, amount z-score, account cohorts), 12 EDA business questions
+- PostgreSQL: Normalized schema + 17 business queries using CTEs and window functions (RANK, LAG)
+- Flagged the top 10 riskiest merchants (7–9% fraud rate, 2–3× platform average) and Debit Card as the highest-risk channel (3.73%)
+- Power BI: 3-page executive dashboard — Executive Overview, Merchant Risk Analysis, User Risk Profiles; recommended reduced settlement limits for high-risk-window (12AM–4AM) transactions
+
+[![View Repo](https://img.shields.io/badge/View_Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mahesh735-ai/UPI-Transaction-Fraud-Risk-Analytics)
+
+---
 
 ### 🏦 Loan Default Risk Prediction &nbsp;|&nbsp; `XGBoost` `SHAP` `Streamlit`
 > **End-to-end credit risk classification system — deployed and live**
@@ -145,19 +178,6 @@ mahesh = {
 - Surfaced a 96% transaction success rate (4% failure rate flagged for server-reliability fixes), 71.6% weekday share, and ₹2.5B+ value concentrated in Loans — with Gen X as the core segment (37.4%)
 
 [![View Repo](https://img.shields.io/badge/View_Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mahesh735-ai/PhonePe-Business-Intelligence-Analytics)
-
----
-
-### 🛡️ UPI Transaction Fraud & Risk Analytics &nbsp;|&nbsp; `Python` `PostgreSQL` `Excel` `Power BI`
-> **End-to-end FinTech fraud analytics — simulating a real risk team's workflow**
-
-- Architected a fraud pipeline on 50,000 UPI transactions across 5 normalized tables — uncovering ₹67.5L in fraud exposure
-- Python: Data cleaning, feature engineering (late-night flag, amount z-score, account cohorts), 12 EDA business questions
-- PostgreSQL: Normalized schema + 17 business queries using CTEs and window functions (RANK, LAG)
-- Flagged the top 10 riskiest merchants (7–9% fraud rate, 2–3× platform average) and Debit Card as the highest-risk channel (3.73%)
-- Power BI: 3-page executive dashboard — Executive Overview, Merchant Risk Analysis, User Risk Profiles; recommended reduced settlement limits for high-risk-window (12AM–4AM) transactions
-
-[![View Repo](https://img.shields.io/badge/View_Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mahesh735-ai/UPI-Transaction-Fraud-Risk-Analytics)
 
 ---
 
